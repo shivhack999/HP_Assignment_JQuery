@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            all:unset;
+            background-color: brown;
+            color:white;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        a:nth-child(even){
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" id="clickId">Click Me</a> 
+    <a href="#" id="hoverId">Hover</a> 
+    <a href="#" id="mouseOverId">MouseOver</a> 
+    <a href="#" id="mouseOutId">MouseOut</a> 
+    <a href="#" id="myLink">Click or Focus on Me</a>
+    <a href="https://www.google.com" id="defaultPrevent">DefaultPrevent</a>
+    <p id="message"></p>
+
+</body>
+</html>
